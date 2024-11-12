@@ -7,6 +7,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Install required packages for building Android 15
 RUN apt-get update && \
     apt-get install -y \
+    bc \
     git-core \
     gnupg \
     flex \
