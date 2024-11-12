@@ -24,6 +24,7 @@ RUN apt-get update && \
     libx11-dev \
     lib32z1-dev \
     libgl1-mesa-dev \
+    libssl-dev \
     libxml2-utils \
     xsltproc \
     unzip \
